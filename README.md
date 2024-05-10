@@ -42,20 +42,6 @@ The REST API documentation can be found at: http://localhost:8080/swagger-ui.htm
 You can use tools like cURL, Postman, or any HTTP client library to interact with the API endpoints.
 Example Code
 Below is an example of how to use SpringAI in your Java application:
-
-java
-Copy code
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import com.example.springai.service.AIService;
-
-public class MyApp {
-    public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        AIService aiService = context.getBean(AIService.class);
-
-        // Your AI logic here
-    }
 }
 Contributing
 We welcome contributions from the community! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
